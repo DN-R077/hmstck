@@ -6,22 +6,10 @@
     <title>hmstck</title>
 </head>
     
-<style>
 
-.caja{
-  float: left;
-  width: calc(30% - 20px);
-  height: 150px;
-  background: black;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
-}
-
-</style>
 <body>
   
-    <div class="caja" id="container"> </div>
+    <div  id="container"> </div>
  <P><h2>FLASH PAGINA 90</h2></P>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script>
@@ -39,24 +27,6 @@
             player.style.height = "450px";
         });
     </script> 
-      
- <div class="caja" id="container"> </div>
- <P><h2>FLASH PAGINA 110</h2></P>
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-    <script>
-        window.RufflePlayer = window.RufflePlayer || {};
-        window.addEventListener("load", (event) => {
-            const ruffle = window.RufflePlayer.newest();
-            const player = ruffle.createPlayer();
-            const container = document.getElementById("container"); 
-            container.appendChild(player);
-            player.load({
-                url: "[S] PAG-110 PESTERCHUM.swf", 
-                backgroundColor: "#000", 
-             });
-            player.style.width = "650px"; 
-            player.style.height = "450px";
-        });
-    </script> 
+
 </body>
 </html>
