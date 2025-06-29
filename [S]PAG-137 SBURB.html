@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hmstck</title>
+</head>
+<style>.bt2{padding:6px;
+              border-radius:10px;
+             }
+  </style>
+<body>
+         
+ <div  id="container"> </div>
+ <P><h2>FLASH PAGINA 137</h2></P>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("container"); 
+            container.appendChild(player);
+            player.load({
+                url: "[S] PAG-137 SBURB.swf", 
+                backgroundColor: "#000", 
+             });
+            player.style.width = "650px"; 
+            player.style.height = "450px";
+        });
+    </script> 
+    <button class="bt2" onclick="window.location.href='pag-110.html';">Anterior Flash</button>
+     <button class="bt2" onclick="window.location.href='EnConstruccion.html';">Siguiente Flash</button>
+</body>
+</html>
